@@ -1,0 +1,31 @@
+.header_area {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #03c75a;
+    color: #fff;
+    z-index: 5000;
+}
+
+.place-header {
+    display: flex;
+    justify-content: space-between; //요소 분리//
+    align-items: center; //주로 flex와 세트//
+    
+    .title {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .link-back {
+        display:flex;
+    }
+
+    .my-orders {
+        padding-right: $m-padding; //변수에 저장//
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
