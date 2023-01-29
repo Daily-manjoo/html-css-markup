@@ -6,7 +6,6 @@
     background-color: #03c75a;
     color: #fff;
     z-index: 5000;
-}
 
 .place-header {
     display: flex;
@@ -27,5 +26,18 @@
         padding-right: $m-padding; //변수에 저장//
         font-size: 15px;
         font-weight: 700;
+        }
+
     }
+
+    .place-tab {
+
+    }
+
+    .tab-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; //왜 안됨?//
+    }
+    
 }

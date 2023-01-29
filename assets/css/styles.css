@@ -143,25 +143,29 @@ textarea::-webkit-outer-spin-button {
   color: #fff;
   z-index: 5000;
 }
-
-.place-header {
+.header_area .place-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.place-header .title {
+.header_area .place-header .title {
   display: flex;
   align-items: center;
   font-size: 20px;
   font-weight: 600;
 }
-.place-header .link-back {
+.header_area .place-header .link-back {
   display: flex;
 }
-.place-header .my-orders {
+.header_area .place-header .my-orders {
   padding-right: 18px;
   font-size: 15px;
   font-weight: 700;
+}
+.header_area .tab-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dimmed-layer {
