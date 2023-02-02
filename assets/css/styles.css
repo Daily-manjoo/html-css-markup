@@ -147,6 +147,7 @@ textarea::-webkit-outer-spin-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 48px;
 }
 .header_area .place-header .title {
   display: flex;
@@ -162,10 +163,23 @@ textarea::-webkit-outer-spin-button {
   font-size: 15px;
   font-weight: 700;
 }
+.header_area .place-tab {
+  display: flex;
+  height: 45px;
+  background-color: #03b753;
+}
 .header_area .tab-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: 8px;
+}
+.header_area #span-fix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .dimmed-layer {

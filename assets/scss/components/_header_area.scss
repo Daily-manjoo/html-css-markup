@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between; //요소 분리//
     align-items: center; //주로 flex와 세트//
+    height: $place-header-height;
     
     .title {
         display: flex;
@@ -31,13 +32,29 @@
     }
 
     .place-tab {
-
+        display:flex;
+        height: $place-tab-height;
+        background-color: #03b753;
     }
 
     .tab-inner {
         display: flex;
         justify-content: space-between;
         align-items: center; //왜 안됨?//
+        width: 100%;
+        padding: 8px;
+
     }
+
+    #span-fix{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; //왜 안됨?//
+        width: 100%;
+    }
+
+
+
     
 }
+
