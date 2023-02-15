@@ -1,0 +1,16 @@
+.recent-order-area {
+    display: flex;
+    margin-top: 16px;
+    padding: 18px 0;
+    border-radius: 2px;
+
+    .recent-title {
+        display: flex;
+        flex-direction: column; //세로로 떨어지는 형태//
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-right: 1px solid $booking-color-bg102;
+        line-height: 1.42;
+    }
+}
