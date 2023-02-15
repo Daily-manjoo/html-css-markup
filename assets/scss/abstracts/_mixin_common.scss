@@ -1,0 +1,7 @@
+@mixin ellipse {
+    text-overflow: ellipsis; //짝꿍
+    white-space: nowrap; //가로스크롤
+    overflow: hidden;
+}
+
+//ellipse는 말줄임표
