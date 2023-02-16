@@ -4,4 +4,14 @@
     overflow: hidden;
 }
 
-//ellipse는 말줄임표
+//ellipse는 한줄 이상 넘어가면 말줄임표
+
+@mixin multi-ellipsis($font-size, $line-height, $lines) {
+    font-size: $font-size;
+    line-height: $line-height;
+    max-height: $line-height * $lines; //19*2(line-height*줄 개수)
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: $lines; //변수 몇 줄 받을 건지
+    -webkit-box-orient: vertical; /* autoprefixer: off */
+}
