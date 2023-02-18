@@ -37,7 +37,7 @@
         </header>
         <!-- // 고정 헤더 영역 -->
 
-       <div class="menu-detail-area">
+        <div class="menu-detail-area">
         <!--- 메뉴 이미지 영역 -->
             <div class="menu-img"
                 style="background-image:url('http://www.kns.tv/news/photo/201708/338326_230775_442.jpg');">
@@ -46,6 +46,7 @@
        <!-- 메뉴 주문 정보 영역 -->
        <div class="menu-info-area">
             <div class="common-inner">
+                <!-- 메뉴 정보 영역 -->
                 <p class="menu-name-group">
                     <span class="menu-name">메뉴이름</span>
                     <span class="badge-popular">인기</span>
@@ -59,9 +60,163 @@
                 </div>
 
                 <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀 있습니다 메뉴에 대한 간단한 설명이 적혀 있습니다</p>
-             </div>
+                    <!-- //메뉴 정보 영역-->
+
+                    <!-- 메뉴 주문 영역 -->
+                    <div class="order-type-area">
+                        <div class="type-select">
+                            <div class="title">
+                                <svg viewBox="0 0 18 18" class="ico-n-logo">
+                                    <path fill-rule="evenodd" fill="currentColor" d="M18 0v18H0V0h18zM7.255 4.582H4.473v9.054h2.915V8.79l3.357 4.846h2.782V4.582h-2.915v4.846L7.255 4.582z">
+                                    </path>
+                                </svg>
+                                주문
+                            </div>
+                            <div class="tab-switch-box" role="tablist">
+                                <a href="#" class="tab-switch is-active" role="tab">🛍&nbsp;&nbsp;포장</a>
+                                <a href="#" class="tab-switch" role="tab">🍽&nbsp;&nbsp;매장</a>
+                            </div>
+                        </div>
+                        <div class="type-amount">
+                            <div class="title">수량</div>
+                            <div class="amount-select">
+                                <button class="btn-minus" aria-label="빼기" disabled></button>
+                                <span class="amount disabled">1</span>
+                                <button class="btn-plus" aria-label="더하기"></button>
+                            </div>
+                        </div>
+                        <button class="btn-order">1개 담기 9,999원</button>
+                        <!-- <button class="btn-order" disabled>지금 주문 가능한 시간이 아닙니다.</button> -->
+                    </div>
+                <!-- //메뉴 주문 영역-->
             </div>
         </div>
+
+        <!--주문자 리뷰 영역-->
+        <div class="menu-review-area">
+            <!--주문자 사진-->
+            <div class="orderer-img-area">
+                <div class="common-inner">
+                    <div class="title">주문자 사진<span class="num">99</span></div>
+                    <div class="scroll-x">
+                        <ul class="orderer-pic-list">
+                            <li class="orderer-pic-item">
+                                <a href="#" class="orderer-pic-link">
+                                    <img src="https://via.placeholder.com/104/fff/000" alt="">
+                                </a>
+                            </li>
+                            <li class="orderer-pic-item">
+                                <a href="#" class="orderer-pic-link">
+                                    <img src="https://via.placeholder.com/104/fff/000" alt="">
+                                </a>
+                            </li>
+                            <li class="orderer-pic-item">
+                                <a href="#" class="orderer-pic-link">
+                                    <img src="https://via.placeholder.com/104/fff/000" alt="">
+                                </a>
+                            </li>
+                            <li class="orderer-pic-item">
+                                <a href="#" class="orderer-pic-link">
+                                    <img src="https://via.placeholder.com/104/fff/000" alt="">
+                                </a>
+                            </li>
+                            <li class="orderer-pic-item">
+                                <a href="#" class="orderer-pic-link">
+                                    <img src="https://via.placeholder.com/104/fff/000" alt="">
+                                </a>
+                            </li>
+                            <li class="orderer-pic-item">
+                                <a href="#" class="orderer-pic-link">
+                                    <img src="https://via.placeholder.com/104/fff/000" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// 주문자 사진-->
+            </div>
+            <!-- // 주문자 사진-->
+
+            <!-- 주문자 리뷰 -->
+            <div class="orderer-review-area">
+                <div class="common-inner">
+                    <div class="title">주문자 리뷰<span class="num">999</span></div>
+                    <ul class="review-list">
+                        <li class="review-item">
+                            <div class="review-star">
+                                <span class="ico-star-group">
+                                    <span class="ico-star-group-fill" style="width: 90%;"></span>
+                                </span>
+                                <span class="point">4.5</span>
+                            </div>
+                            <p class="review-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem qui magnam quia modi fugiat quae ut exercitationem beatae, itaque corporis mollitia numquam inventore porro 
+                                quibusdam repellat aperiam vel alias dolore?</p>
+                                <div class="review-info">
+                                    <span class="review-nickname">joyu***</span>
+                                    <span class="review-date">2021. 10. 7 주문</span>
+                                </div>
+                        </li>
+
+                        <li class="review-item">
+                            <div class="review-star">
+                                <span class="ico-star-group">
+                                    <span class="ico-star-group-fill" style="width: 80%;"></span>
+                                </span>
+                                <span class="point">4</span>
+                            </div>
+                            <p class="review-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem qui magnam quia modi fugiat quae ut exercitationem beatae, itaque corporis mollitia numquam inventore porro 
+                                quibusdam repellat aperiam vel alias dolore?</p>
+                                <div class="review-info">
+                                    <span class="review-nickname">joyu***</span>
+                                    <span class="review-date">2021. 10. 7 주문</span>
+                                </div>
+                        </li>
+
+                        <li class="review-item">
+                            <div class="review-star">
+                                <span class="ico-star-group">
+                                    <span class="ico-star-group-fill" style="width: 70%;"></span>
+                                </span>
+                                <span class="point">3.5</span>
+                            </div>
+                            <p class="review-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem qui magnam quia modi fugiat quae ut exercitationem beatae, itaque corporis mollitia numquam inventore porro 
+                                quibusdam repellat aperiam vel alias dolore?</p>
+                                <div class="review-info">
+                                    <span class="review-nickname">joyu***</span>
+                                    <span class="review-date">2021. 10. 7 주문</span>
+                                </div>
+                        </li>
+                    </ul>
+
+                    <button class="btn-more">더 보기</button>
+                </div>
+            </div>
+
+            <!-- //주문자 리뷰-->
+        </div>
+        <!-- //주문자 리뷰 영역-->
+
+        <!-- 옵션 팝업 영역-->
+        <div class="option-popup-area">
+            <div class="dimmed-layer light"></div>
+            <div class="menu-option-popup">
+                <svg class="content-top-pattern" width="100%" height="100%">
+                    <defs>
+                        <pattern id="pattern-triangle" x="0" y="0" width="10" height="11" patternUnits="userSpaceOnUse">
+                            <polygon points="5 5, 10 10, 10 11, 0 11, 0 10"/>
+                        </pattern>
+                    </defs>
+                    <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-triangle)"/>
+                </svg>
+
+                <div class="content-top">top</div>
+                <div class="content-body">scroll</div>
+                <div class="content-bottom">
+                    <button>button</button>
+                </div>
+            </div>
+        </div>
+        <!-- //옵션 팝업 영역-->
     </div>
 </body>
 

@@ -1,10 +1,10 @@
-@mixin ellipse {
+@mixin ellipsis {
     text-overflow: ellipsis; //짝꿍
     white-space: nowrap; //가로스크롤
     overflow: hidden;
 }
 
-//ellipse는 한줄 이상 넘어가면 말줄임표
+//ellipsis는 한줄 이상 넘어가면 말줄임표
 
 @mixin multi-ellipsis($font-size, $line-height, $lines) {
     font-size: $font-size;

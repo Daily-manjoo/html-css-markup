@@ -95,7 +95,7 @@
         margin-top: 8px;
         font-weight: 600;
         font-size: 13px;
-        @include ellipse;
+        @include ellipsis;
     }
     
 
@@ -103,6 +103,6 @@
         font-size: 13px;
         font-weight: 600;
         color: $point-color;
-        @include ellipse;
+        @include ellipsis;
     }
 }

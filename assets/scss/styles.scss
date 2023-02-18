@@ -2,15 +2,16 @@
 @import "./abstracts/variables";
 @import "./abstracts/mixin_common";
 
-@import "./base/reset.scss";
+@import "./base/reset";
 @import "./base/preset";
 
 @import "./components/header_area";
 @import "./components/menu_item"; 
+@import "./components/amount_select";
 
 @import "./components/detail/menu_detail_area";
 @import "./components/detail/option_popup_area";
-@import "./components/detail/menu_review_area.scss";
+@import "./components/detail/menu_review_area";
 
 
 @import "./components/menu/order_type";
